@@ -22,6 +22,11 @@ export class LivroInserirComponent {
       paginas: this.paginas,
     }
     this.livroAdicionado.emit(livro);
+
+    this.id = undefined;
+    this.titulo = undefined;
+    this.autor = undefined;
+    this.paginas = undefined;
   }
 
 }
